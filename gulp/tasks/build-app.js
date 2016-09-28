@@ -12,6 +12,12 @@ module.exports = function(gulp) {
         gulp.src('./package.json', { base: './'})
             .pipe(gulp.dest(distDirectory));
 
+        gulp.src('./assets/favicon.ico')
+            .pipe(gulp.dest(distDirectory + 'public'));
+
+        gulp.src('./assets/*.png')
+            .pipe(gulp.dest(distDirectory + 'public'));
+
         gulp.src('./config/**/*')
             .pipe(gulp.dest(distDirectory + 'config'));
 

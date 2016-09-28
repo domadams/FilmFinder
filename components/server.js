@@ -25,6 +25,9 @@ function htmlTemplate(title, content){
                 <meta name="description" content="I am an accumulator betting predictor">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
                 <link rel="stylesheet" href="/bundle.css">
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+                <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
                 <title>${title}</title>
             </head>
             <body>
