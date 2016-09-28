@@ -1,0 +1,10 @@
+@import '../../../assets/styles/shared/colours';
+
+.header--wrapper{
+  background-color: $black1;
+
+  .header--content-wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}

@@ -18,3 +18,70 @@ $small: 640px;
 $medium: 768px;
 $large: 960px;
 $extraLarge: 1200px;
+
+
+.span-1-of-8{
+  width: 12.5%;
+}
+
+.span-2-of-8{
+  width: 25%;
+}
+
+.span-3-of-8{
+  width: 37.5%;
+}
+
+.span-4-of-8{
+  width: 50%;
+}
+
+.span-5-of-8{
+  width: 62.5%;
+}
+
+.span-6-of-8{
+  width: 75%;
+}
+
+.span-7-of-8{
+  width: 87.5%;
+}
+
+.span-8-of-8{
+  width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  .span-1-of-8{
+    width: 100%;
+  }
+
+  .span-2-of-8{
+    width: 100%;
+  }
+
+  .span-3-of-8{
+    width: 100%;
+  }
+
+  .span-4-of-8{
+    width: 100%;
+  }
+
+  .span-5-of-8{
+    width: 100%;
+  }
+
+  .span-6-of-8{
+    width: 100%;
+  }
+
+  .span-7-of-8{
+    width: 100%;
+  }
+
+  .span-8-of-8{
+    width: 100%;
+  }
+}

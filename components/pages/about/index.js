@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router'
 import './about.scss';
 
 class About extends Component {
     render() {
         return (
-            <div className="about-component">
-                <Link to="/">Home</Link>
+            <div className="about--component">
+                <h2>About FilmFinder</h2>
+                <p>
+                    About Page Content
+                </p>
             </div>
         );
     }

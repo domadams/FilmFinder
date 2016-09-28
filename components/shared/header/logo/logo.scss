@@ -1,0 +1,30 @@
+@import '../../../../assets/styles/shared/colours';
+
+.logo--wrapper{
+  width: 200px;
+}
+
+.logo{
+  background: url('/images/logos/film-finder-logo.png') no-repeat scroll 0 0 $black1;
+  background-size: contain;
+  display: block;
+  height: 90px;
+  margin: 10px 0 10px;
+}
+
+@media only screen and (max-width: 720px) {
+  .logo--wrapper{
+    margin: 0 auto;
+  }
+
+  .logo {
+    height: 80px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    height: 70px;
+  }
+}

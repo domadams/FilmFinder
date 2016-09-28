@@ -1,0 +1,30 @@
+@import "../../../assets/styles/shared/normalize";
+@import "../../../assets/styles/shared/grid";
+@import "../../../assets/styles/shared/colours";
+
+body{
+  background-color: $grey-2;
+  height: 100%;
+}
+
+.page-content{
+  background-color: $grey-2;
+  float: none;
+  margin: 0 auto;
+  max-width: 1080px;
+  min-height:400px;
+  padding-top: 35px;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .page-content{
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .page-content{
+    padding-top: 15px;
+  }
+}

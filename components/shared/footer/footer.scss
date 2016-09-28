@@ -1,0 +1,18 @@
+@import '../../../assets/styles/shared/colours';
+@import '../../../assets/styles/shared/typography';
+
+.footer--wrapper{
+  background-color: $dark-green;
+}
+
+.footer--copyright{
+  color: $white;
+  display: block;
+  font-size: $fontSmall;
+  padding: 20px;
+  text-align: center;
+
+  a{
+    color: $white;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { PropTypes, Component } from 'react';
-import './app.scss';
+import DefaultLayout from './layouts/default-layout';
 
 class App extends Component {
     static propTypes = {
@@ -8,12 +8,10 @@ class App extends Component {
 
     render() {
         return (
-            <div className="app-wrapper">
-                <div className="row">
-                    {/* Render Main Content */}
-                    {this.props.children}
-                </div>
-            </div>
+            <DefaultLayout>
+                {/* Render Main Content */}
+                {this.props.children}
+            </DefaultLayout>
         );
     }
 }
